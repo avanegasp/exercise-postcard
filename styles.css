@@ -1,0 +1,75 @@
+/*
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+*/
+
+body {
+	background: black;
+}
+
+.postcard {
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	background: white;
+	padding: 15px;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 60px;
+	height: 60px;
+	margin-top: 23px;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	font-family: "Delicious Handrawn", cursive;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.postcard-body p {
+	font-family: "Delicious Handrawn", cursive;
+	font-size: 11px;
+}
+
+.postcard-body input {
+	font-family: "Delicious Handrawn", cursive;
+	font-size: 11px;
+}
+
+.body-left p:first-child {
+	margin-top: 15px;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+	padding: 10px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+.postcard-footer button {
+	font-family: "Delicious Handrawn", cursive;
+	margin-top: 15px;
+}
+
+button {
+	background: steelblue;
+	padding: 2px;
+}
